@@ -11,6 +11,8 @@ mod problems;
 mod args;
 pub use args::*;
 
+pub mod utils;
+
 pub const YEAR: u32 = 2023;
 
 fn main() -> Result<()> {
